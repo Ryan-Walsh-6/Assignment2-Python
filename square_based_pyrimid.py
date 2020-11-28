@@ -9,8 +9,9 @@ def main():
     # this program calculates the volume of a square based pyramid
 
     # input
-    base_edge = int(input("Enter the base edge of square based pyramid:"))
-    height = int(input("Enter the height of square based pyramid:"))
+    print("We will be calculating the volume of a square based pyramid")
+    base_edge = int(input("Enter the base edge (cm):"))
+    height = int(input("Enter the height of square (cm):"))
 
     # process
     volume = base_edge**2 * (height * 1/3)
