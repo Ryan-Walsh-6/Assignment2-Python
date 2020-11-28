@@ -11,7 +11,7 @@ def main():
     # input
     print("We will be calculating the volume of a square based pyramid")
     base_edge = int(input("Enter the base edge (cm):"))
-    height = int(input("Enter the height of square (cm):"))
+    height = int(input("Enter the height of the pyramid (cm):"))
 
     # process
     volume = base_edge**2 * (height * 1/3)
